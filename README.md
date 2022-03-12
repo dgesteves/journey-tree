@@ -56,6 +56,8 @@ Where:
   at [https://www.postgresql.org/docs/9.1/ltree.html](https://www.postgresql.org/docs/9.1/ltree.html) for a deeper
   understanding. The example at the bottom of this page should give a good understanding.
 
+![Screenshot 2022-03-12 at 13 49 52](https://user-images.githubusercontent.com/34245953/158020736-6d41bbcc-b410-4197-8a26-3ad9f9927fef.png)
+
 ### Task 1
 
 Your task is to build a page that takes a tree from an API and renders it on screen. There won’t be any drag’n’drop
