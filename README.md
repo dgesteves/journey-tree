@@ -8,6 +8,7 @@
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation-instructions)
 3. [Test Instructions](#test-instructions)
+4. [Architecture](#journey-architecture)
 
 ## Application video:
 
@@ -164,3 +165,8 @@ These journey templates should simply be hardcoded in the frontend. For this tas
   implementations.
 
 #### `npm test`
+
+## Journey Architectue
+
+
+![Screenshot 2022-03-13 at 09 39 43](https://user-images.githubusercontent.com/34245953/158053833-9e7324e6-292f-4bf6-a08a-ddc21cb57e8f.png)
