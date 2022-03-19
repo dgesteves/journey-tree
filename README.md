@@ -9,6 +9,7 @@
 2. [Installation Instructions](#installation-instructions)
 3. [Test Instructions](#test-instructions)
 4. [Architecture](#architectue-dimensions)
+5. [Theory Task](#task-2)
 
 ## Application video:
 
@@ -220,3 +221,19 @@ Documentation:
   each folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README` file.
 - Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
   documentation is not important by the contrary.
+
+### Task 2
+
+A user who wants to create a new journey should be able to pick from a list of pre-defined journey templates. Once
+chosen the application should
+
+1. render the tree on screen
+2. allow the user to configure it to their needs
+3. allow the user to save the configured journey.
+
+These journey templates should simply be hardcoded in the frontend. For this task please
+
+- decide on the data structure you would use to store those journey templates and give an example
+- think of the challenges you would expect to come up when implementing this functionality. List them with a short
+  explanation (the details will be discussed in the technical discussion)
+- no actual coding required for this task!
