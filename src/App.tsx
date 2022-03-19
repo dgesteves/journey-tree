@@ -1,8 +1,14 @@
+import { ThemeProvider } from "styled-components";
+import theme from "./assets/theme";
+import GlobalStyles from "./assets/globalStyles";
+import JourneyBuilderPage from "./pages/JourneyBuilder";
+
 function App() {
   return (
-    <div className="App">
-      <h1>App</h1>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <JourneyBuilderPage />
+    </ThemeProvider>
   );
 }
 
