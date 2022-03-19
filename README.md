@@ -219,22 +219,16 @@ Documentation:
 
 - Did not have much time this week for personal reasons to a had to make a choice between extensive documentation on
   each folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README` file.
-- Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
+- Please don't take it like I did not mind is just that did not sim a priority in my point of view, does not mean that
   documentation is not important by the contrary.
 
 ### Task 2
 
-A user who wants to create a new journey should be able to pick from a list of pre-defined journey templates. Once
-chosen the application should
+Response:
 
-1. render the tree on screen
-2. allow the user to configure it to their needs
-3. allow the user to save the configured journey.
-4. 
-
-These journey templates should simply be hardcoded in the frontend. For this task please
-
-- decide on the data structure you would use to store those journey templates and give an example
-- think of the challenges you would expect to come up when implementing this functionality. List them with a short
-  explanation (the details will be discussed in the technical discussion)
-- no actual coding required for this task!
+- We can use [redis](https://redis.io/) to manage that resources and when the user dave a new template or change the old
+  one we can get a `Ref` from the dom tree of that component and update it like a snapshot, the data structure that I would use is a `binary tree`.
+- My task implementation should be able to render any tree.
+- About the challenges that I would face, well one problem will be to decide how we want to store that data, should be in `Json`, on a `binary tree` class?
+After that we need to parse it back to a React component or than should we inject it directly in the `DOM`?
+- Other point will be how do we synchronise all that to know what is the font `TRUE`.
