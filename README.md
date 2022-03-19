@@ -57,8 +57,6 @@ Where:
   at [https://www.postgresql.org/docs/9.1/ltree.html](https://www.postgresql.org/docs/9.1/ltree.html) for a deeper
   understanding. The example at the bottom of this page should give a good understanding.
 
-![Screenshot 2022-03-12 at 13 49 52](https://user-images.githubusercontent.com/34245953/158020736-6d41bbcc-b410-4197-8a26-3ad9f9927fef.png)
-
 ### Task 1
 
 Your task is to build a page that takes a tree from an API and renders it on screen. There won’t be any drag’n’drop
@@ -167,6 +165,8 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 #### `npm test`
 
 ## Journey Architectue
+![Screenshot 2022-03-12 at 13 49 52](https://user-images.githubusercontent.com/34245953/158020736-6d41bbcc-b410-4197-8a26-3ad9f9927fef.png)
 
+![Screenshot 2022-03-19 at 09 56 03](https://user-images.githubusercontent.com/34245953/159127175-f9d73f0e-e583-442c-a3d8-28ab59137010.png)
 
 ![Screenshot 2022-03-13 at 09 39 43](https://user-images.githubusercontent.com/34245953/158053833-9e7324e6-292f-4bf6-a08a-ddc21cb57e8f.png)
