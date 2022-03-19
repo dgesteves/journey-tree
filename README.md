@@ -224,6 +224,8 @@ Documentation:
 
 ### Task 2
 
+![istockphoto-1310060658-612x612](https://user-images.githubusercontent.com/34245953/159130533-8c9baef2-d7cc-4741-ae39-cedae4d5af6a.jpeg)
+
 A user who wants to create a new journey should be able to pick from a list of pre-defined journey templates. Once
 chosen the application should
 
