@@ -12,7 +12,8 @@
 
 ## Application video:
 
-https://user-images.githubusercontent.com/34245953/157965938-0edf972c-1557-4394-b0d0-fa6867dd5fc6.mov
+https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
+
 
 ## Project Description
 
