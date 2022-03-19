@@ -160,7 +160,7 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 ## Test Instructions
 
-* ..........
+* WIP
 
 #### `npm test`
 
