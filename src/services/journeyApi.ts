@@ -5,11 +5,15 @@ import { BASE_URL } from "../constants";
  * @returns {promise}
  */
 export default async function fetchJourney() {
-  const response = await fetch(BASE_URL, {
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-  });
-  return await response.json();
+  try {
+    const response = await fetch(BASE_URL, {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    });
+    return await response.json();
+  } catch (e) {
+    console.log(e);
+  }
 }

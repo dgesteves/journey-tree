@@ -160,9 +160,20 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 ## Test Instructions
 
-* WIP
-
 #### `npm test`
+
+#### `npm run coverage`
+
+- Jest coverage reporter will look something like this:
+
+````shell
+---------------|---------|----------|---------|---------|-------------------
+File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
+---------------|---------|----------|---------|---------|-------------------
+All files      |       0 |      100 |       0 |       0 |                   
+journeyApi.ts |       0 |      100 |       0 |       0 | 8-17              
+---------------|---------|----------|---------|---------|-------------------
+````
 
 ## Architecture Decisions
 
@@ -229,8 +240,10 @@ Documentation:
 Response:
 
 - We can use [redis](https://redis.io/) to manage that resources and when the user dave a new template or change the old
-  one we can get a `Ref` from the dom tree of that component and update it like a snapshot, the data structure that I would use is a `binary tree`.
+  one we can get a `Ref` from the dom tree of that component and update it like a snapshot, the data structure that I
+  would use is a `binary tree`.
 - My task implementation should be able to render any tree.
-- About the challenges that I would face, well one problem will be to decide how we want to store that data, should be in `Json`, on a `binary tree` class?
-After that we need to parse it back to a React component or than should we inject it directly in the `DOM`?
+- About the challenges that I would face, well one problem will be to decide how we want to store that data, should be
+  in `Json`, on a `binary tree` class? After that we need to parse it back to a React component or than should we inject
+  it directly in the `DOM`?
 - Other point will be how do we synchronise all that to know what is the font `TRUE`.
