@@ -219,10 +219,12 @@ Documentation:
 
 - Did not have much time this week for personal reasons to a had to make a choice between extensive documentation on
   each folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README` file.
-- Please don't take it like I did not mind is just that did not sim a priority in my point of view, does not mean that
+- Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
   documentation is not important by the contrary.
 
 ### Task 2
+
+![istockphoto-1310060658-612x612](https://user-images.githubusercontent.com/34245953/159130533-8c9baef2-d7cc-4741-ae39-cedae4d5af6a.jpeg)
 
 Response:
 
