@@ -230,6 +230,7 @@ chosen the application should
 1. render the tree on screen
 2. allow the user to configure it to their needs
 3. allow the user to save the configured journey.
+4. 
 
 These journey templates should simply be hardcoded in the frontend. For this task please
 
