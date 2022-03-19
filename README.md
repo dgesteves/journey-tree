@@ -8,12 +8,11 @@
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation-instructions)
 3. [Test Instructions](#test-instructions)
-4. [Architecture](#journey-architecture)
+4. [Architecture](#architectue-dimensions)
 
 ## Application video:
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
-
 
 ## Project Description
 
@@ -160,11 +159,64 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 ## Test Instructions
 
-* I think that it is sufficient to show tests on one exercise only, should show that I know how to test my
-  implementations.
+* ..........
 
 #### `npm test`
 
-## Journey Architectue
+## Architectue dimensions
 
 ![Screenshot 2022-03-19 at 09 56 03](https://user-images.githubusercontent.com/34245953/159127175-f9d73f0e-e583-442c-a3d8-28ab59137010.png)
+
+General:
+
+- I did not use any library, so you can check my code from scratch, I think that the usage of other libraries would the
+  denied the purpose of the task for the position.
+- The task is well done and can see the programmer skills specific on the `Front-end`.
+- Data model is a bit challenging could be easier with some king of relation by parent and child ID or tree level, since
+  the `PATH` is sent as a DFS tree algorithm.
+
+Accessibility:
+
+- Task is fully accessible.
+- It is possible to move from any important element using `TAB`.
+- Support scream readers.
+- Markup is fully semantic.
+- SEO could be improved thou.
+
+Styles:
+
+- I Chose a futuristic design hope that is of you're liking.
+- I opted to use `CSS` in `JS` since in my point of view it is cleaner and easy to scale and maintain.
+- Styles are fully responsive.
+- Properties are fully dynamic.
+- Variables are set on global variables.
+- I implemented a Theme to be easy to scale the team working on the project, since you can just change variable on the
+  theme to change the all application style.
+- Code does not use Absolut positioning, although it would be easier it is harder to scale and maintain.
+
+File Structure:
+
+- The file structure was build with this task necessities in mind and is fully scalable and easy to navigate and
+  maintain.
+- Every aspect of the respective folder lives inside, so it will be easy to onboard new team members.
+
+Code:
+
+- `TS` and all the needed `Types` and `Iterfaces` to correctly handle type check, of course that some types will be
+  automatically generated but `TS` assertion.
+- Some `Type Guards` have to be added in the future.
+- I decided to transform the data when the page loads on a tree by the path since it looks like a DFS tree algorithm.
+- Created a node component and a tree component and responsively call tree with the new node until there is no children.
+- components are decoupled from different concerns and follow every `React` component creation pattern and best
+  practices.
+- There is an example of an implementation of a web worker to outsource to a new thread heavy computation tasks without
+  blocking the event loop.
+- Code should be easy scalable and maintainable for future iterations of development.
+- There is one component that has too much state and should be break down(`EditStep`).
+
+Documentation:
+
+- Did not have much time this week for personal reasons to a had to make a choice between extensive documentation on
+  each folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README` file.
+- Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
+  documentation is not important by the contrary.
