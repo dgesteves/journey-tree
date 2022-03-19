@@ -8,7 +8,7 @@
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation-instructions)
 3. [Test Instructions](#test-instructions)
-4. [Architecture](#architectue-dimensions)
+4. [Architecture](#architecture-decisions)
 5. [Theory Task](#task-2)
 
 ## Application video:
@@ -164,7 +164,7 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 #### `npm test`
 
-## Architectue dimensions
+## Architecture Decisions
 
 ![Screenshot 2022-03-19 at 09 56 03](https://user-images.githubusercontent.com/34245953/159127175-f9d73f0e-e583-442c-a3d8-28ab59137010.png)
 
