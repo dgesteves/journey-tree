@@ -42,9 +42,9 @@ describe("TextInput component", () => {
     expect(inputEl.childElementCount).toBe(0);
   });
 
-  test("input value should be expected value value", () => {
+  test("input value should be expected value prop", () => {
     const inputEl = screen.getByRole("textbox");
 
-    expect(inputEl.textContent).toBe("some value");
+    expect((inputEl as HTMLInputElement).value).toBe("some value");
   });
 });

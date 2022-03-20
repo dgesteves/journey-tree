@@ -41,3 +41,7 @@ describe("JourneyBuilderPage component", () => {
     expect(heading.textContent).toBe(JOURNEY_BUILDER);
   });
 });
+
+/**
+ * @todo create full road test(Full Integration of all components with multiple routs)
+ */

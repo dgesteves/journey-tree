@@ -5,11 +5,12 @@
 
 #### Table of Contents
 
-1. [Project Description](#project-description)
-2. [Installation Instructions](#installation-instructions)
-3. [Test Instructions](#test-instructions)
-4. [Architecture](#architecture-decisions)
-5. [Theory Task](#task-2)
+1. [Coding Task](#task-1-solution)
+2. [Project Description](#project-description)
+3. [Installation Instructions](#installation-instructions)
+4. [Test Instructions](#test-instructions)
+5. [Architecture](#architecture-decisions)
+6. [Theory Task](#task-2-solution)
 
 ## Application video:
 
@@ -150,6 +151,10 @@ These journey templates should simply be hardcoded in the frontend. For this tas
   explanation (the details will be discussed in the technical discussion)
 - no actual coding required for this task!
 
+---
+
+### Task 1 Solution
+
 ## Installation Instructions
 
 ### Available Scripts
@@ -234,7 +239,7 @@ Documentation:
 - Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
   documentation is not important by the contrary.
 
-### Task 2
+### Task 2 Solution
 
 ![istockphoto-1310060658-612x612](https://user-images.githubusercontent.com/34245953/159130533-8c9baef2-d7cc-4741-ae39-cedae4d5af6a.jpeg)
 
