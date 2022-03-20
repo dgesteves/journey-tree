@@ -6,17 +6,14 @@
 #### Table of Contents
 
 1. [Coding Task](#task-1-solution)
-2. [Project Description](#project-description)
-3. [Installation Instructions](#installation-instructions)
-4. [Test Instructions](#test-instructions)
-5. [Architecture](#architecture-decisions)
-6. [Theory Task](#task-2-solution)
+2. [Installation Instructions](#installation-instructions)
+3. [Test Instructions](#test-instructions)
+4. [Architecture](#architecture-decisions)
+5. [Theory Task](#task-2-solution)
 
 ## Application Solution Video:
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
-
-## Project Description
 
 ### Frontend Challenge
 
