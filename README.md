@@ -166,12 +166,11 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 - Jest coverage reporter will look something like this:
 
-`
-File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
----------------|---------|----------|---------|---------|-------------------
-All files       |       0 |      100 |       0 |       0 |                   
-journeyApi.ts  |       0 |      100 |       0 |       0 | 8-17
-`
+
+| File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
+|---------------|---------|----------|---------|---------|-------------------|
+| All files     | 0       | 100      | 0       | 0       |                   |
+| journeyApi.ts | 0       | 100      | 0       | 0       | 8-17              |
 
 ## Architecture Decisions
 
