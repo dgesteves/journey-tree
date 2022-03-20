@@ -166,6 +166,8 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 - Jest coverage reporter will look something like this:
 
+1. run `npm test` to get test snapshots and check passing tests.
+2. run `npm run coverage` to get coverage and test results.
 
 | File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
 |---------------|---------|----------|---------|---------|-------------------|
@@ -183,6 +185,7 @@ General:
 - The task is well done and can see the programmer skills specific on the `Front-end`.
 - Data model is a bit challenging could be easier with some king of relation by parent and child ID or tree level, since
   the `PATH` is sent as a DFS tree algorithm.
+- I have just some time here and there for the task with more time could have been done iven better.
 
 Accessibility:
 
@@ -222,6 +225,7 @@ Code:
   blocking the event loop.
 - Code should be easy scalable and maintainable for future iterations of development.
 - `React hooks` are transformed in to `costume hooks` to be easier to test.
+- Should have more integration tests but what is done it should be more than enough to check how I test my code.
 
 Documentation:
 
