@@ -8,7 +8,7 @@ export default function JourneyBuilderPage() {
   const { journey } = useFetchJourney();
 
   return (
-    <Main data-testid="JourneyBuilderPage-comp">
+    <Main>
       <Heading tabIndex={0} role="heading" aria-label="page main heading">
         {JOURNEY_BUILDER}
       </Heading>

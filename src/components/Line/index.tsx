@@ -6,21 +6,22 @@ import {
   Root,
   Edges,
 } from "./styles";
+import { memo } from "react";
 
-export default function Line({ childrenNumber }: IProps) {
-  if (childrenNumber < 1) return null;
-  if (childrenNumber === 2) {
-    return (
-      <Connections>
-        <Root>
-          <VerticalLine />
-        </Root>
-        <HorizontalLine />
-        <Edges>
-          <VerticalLine />
-          <VerticalLine />
-        </Edges>
-      </Connections>
-    );
-  } else return <VerticalLine />;
-}
+export default memo(function Line({ childrenNumber }: IProps) {
+  if (childrenNumber < 1 || childrenNumber > 2) return null;
+  return childrenNumber === 2 ? (
+    <Connections role="separator" aria-label="connection line between nodes">
+      <Root role="none">
+        <VerticalLine role="none" />
+      </Root>
+      <HorizontalLine role="none" />
+      <Edges role="none">
+        <VerticalLine role="none" />
+        <VerticalLine role="none" />
+      </Edges>
+    </Connections>
+  ) : (
+    <VerticalLine role="separator" aria-label="connection line between nodes" />
+  );
+});

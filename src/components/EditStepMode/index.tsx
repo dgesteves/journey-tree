@@ -18,14 +18,14 @@ export default memo(function EditStepMode({
         inputValue={heading}
         labelText={HEADING_TEXT_LABEL}
         changeHandler={changeHeadingHandler}
-        name="Heading"
+        name={HEADING_TEXT_LABEL}
         id={stepId}
       />
       <TextInput
         inputValue={subHeading}
         labelText={SUB_HEADING_TEXT_LABEL}
         changeHandler={changeSubHeadingHandler}
-        name="sub-heading"
+        name={SUB_HEADING_TEXT_LABEL}
         id={stepId}
       />
       <Button clickHandler={clickHandler} id={stepId}>

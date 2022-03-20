@@ -18,7 +18,7 @@ describe("JourneyBuilderPage component", () => {
   afterEach(cleanup);
 
   test("component should match prev snapshot", () => {
-    const mainEl = screen.getByTestId("JourneyBuilderPage-comp");
+    const mainEl = screen.getByRole("main");
 
     expect(mainEl).toMatchSnapshot();
   });
@@ -30,7 +30,8 @@ describe("JourneyBuilderPage component", () => {
   });
 
   test("component should have 3 children", () => {
-    const mainEl = screen.getByTestId("JourneyBuilderPage-comp");
+    const mainEl = screen.getByRole("main");
+
     expect(mainEl.childElementCount).toBe(3);
   });
 
