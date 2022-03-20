@@ -166,14 +166,14 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 - Jest coverage reporter will look something like this:
 
-````shell
+`
 ---------------|---------|----------|---------|---------|-------------------
 File           | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ---------------|---------|----------|---------|---------|-------------------
 All files       |       0 |      100 |       0 |       0 |                   
 journeyApi.ts  |       0 |      100 |       0 |       0 | 8-17              
 ---------------|---------|----------|---------|---------|-------------------
-````
+`
 
 ## Architecture Decisions
 
@@ -224,7 +224,6 @@ Code:
 - There is an example of an implementation of a web worker to outsource to a new thread heavy computation tasks without
   blocking the event loop.
 - Code should be easy scalable and maintainable for future iterations of development.
-- There is one component that has too much state and should be break down(`EditStep`).
 
 Documentation:
 
