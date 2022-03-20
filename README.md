@@ -12,7 +12,7 @@
 5. [Architecture](#architecture-decisions)
 6. [Theory Task](#task-2-solution)
 
-## Application video:
+## Application Solution Video:
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
 
