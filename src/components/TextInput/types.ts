@@ -1,9 +1,9 @@
-import { Dispatch, SetStateAction } from "react";
+import { ChangeEvent } from "react";
 
 export interface IProps {
   labelText: string;
   inputValue: string;
-  setState: Dispatch<SetStateAction<string>>;
+  changeHandler: (evt: ChangeEvent<HTMLInputElement>) => void;
   name: string;
   id: string;
 }

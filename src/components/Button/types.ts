@@ -1,7 +1,7 @@
-import { Dispatch, SetStateAction } from "react";
+import { MouseEvent } from "react";
 
 export interface IProps {
   children: string;
-  setState: Dispatch<SetStateAction<boolean>>;
+  clickHandler: (evt: MouseEvent<HTMLButtonElement>) => void;
   id: string;
 }

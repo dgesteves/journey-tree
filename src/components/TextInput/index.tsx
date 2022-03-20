@@ -4,7 +4,7 @@ import { InputContainer } from "./styles";
 export default function TextInput({
   labelText,
   inputValue,
-  setState,
+  changeHandler,
   name,
   id,
 }: IProps) {
@@ -17,7 +17,7 @@ export default function TextInput({
         aria-label={labelText}
         tabIndex={0}
         aria-required="true"
-        onChange={(evt) => setState(evt.target.value)}
+        onChange={changeHandler}
         value={inputValue}
         name={name}
       />

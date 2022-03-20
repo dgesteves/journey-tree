@@ -1,10 +1,11 @@
 import { BASE_URL } from "../constants";
+import { Journey } from "./types";
 
 /**
  * @description simulate call to API.
  * @returns {promise}
  */
-export default async function fetchJourney() {
+export default async function fetchJourney(): Promise<Journey | unknown> {
   try {
     const response = await fetch(BASE_URL, {
       headers: {
@@ -14,6 +15,6 @@ export default async function fetchJourney() {
     });
     return await response.json();
   } catch (e) {
-    console.log(e);
+    return e;
   }
 }
