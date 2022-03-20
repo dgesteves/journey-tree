@@ -25,7 +25,7 @@ export default memo(function DisplayStepMode({
         onClick={clickHandler}
       >
         {subHeading || SUB_HEADING}
-      </SubHeading>{" "}
+      </SubHeading>
     </>
   );
 });

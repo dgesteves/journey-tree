@@ -221,6 +221,7 @@ Code:
 - There is an example of an implementation of a web worker to outsource to a new thread heavy computation tasks without
   blocking the event loop.
 - Code should be easy scalable and maintainable for future iterations of development.
+- `React hooks` are transformed in to `costume hooks` to be easier to test.
 
 Documentation:
 

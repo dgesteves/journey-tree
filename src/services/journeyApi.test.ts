@@ -57,7 +57,7 @@ const mockJourney = [
   },
 ];
 
-describe("fetchJourney", () => {
+describe("fetchJourney function", () => {
   test("fetchJourney to fetch correct data", async () => {
     const journey = await fetchJourney();
     expect(journey).toEqual(mockJourney);

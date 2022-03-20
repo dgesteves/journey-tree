@@ -74,6 +74,7 @@ describe("journeyToTree function", () => {
       ],
     },
   ];
+
   test("journeyToTree should return a tree of any data of type IStep[]", () => {
     expect(journeyToTree(mockJourney as IStep[])).toEqual(expectedOutput);
   });
