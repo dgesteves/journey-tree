@@ -1,8 +1,9 @@
 import { IJourney } from "./types";
 import StepNode from "../StepNode";
 import { TreeContainer } from "./styles";
+import { memo } from "react";
 
-export default function JourneyTree({ journeyHasTree = [] }: IJourney) {
+export default memo(function JourneyTree({ journeyHasTree = [] }: IJourney) {
   return (
     <TreeContainer
       role="tree"
@@ -13,4 +14,4 @@ export default function JourneyTree({ journeyHasTree = [] }: IJourney) {
       ))}
     </TreeContainer>
   );
-}
+});

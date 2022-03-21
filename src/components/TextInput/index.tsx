@@ -1,7 +1,8 @@
 import { IProps } from "./types";
 import { InputContainer } from "./styles";
+import { memo } from "react";
 
-export default function TextInput({
+export default memo(function TextInput({
   labelText,
   inputValue,
   changeHandler,
@@ -23,4 +24,4 @@ export default function TextInput({
       />
     </InputContainer>
   );
-}
+});
