@@ -11,6 +11,11 @@
 4. [Architecture](#architecture-decisions)
 5. [Theory Task](#task-2-solution)
 
+## LightHouse Report:
+
+![Screenshot 2022-03-21 at 03 40 24](https://user-images.githubusercontent.com/34245953/159202509-dc88f6cb-3b52-42ce-ac1a-258403907de9.png)
+
+
 ## Application Solution Video:
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
