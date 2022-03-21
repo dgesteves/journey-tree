@@ -15,7 +15,6 @@
 
 ![Screenshot 2022-03-21 at 03 40 24](https://user-images.githubusercontent.com/34245953/159202509-dc88f6cb-3b52-42ce-ac1a-258403907de9.png)
 
-
 ## Application Solution Video:
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
@@ -195,59 +194,61 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 
 General:
 
-- I did not use any library, so you can check my code from scratch, I think that the usage of other libraries would the
-  denied the purpose of the task for the position.
-- The task is well done and can see the programmer skills specific on the `Front-end`.
-- Data model is a bit challenging could be easier with some king of relation by parent and child ID or tree level, since
-  the `PATH` is sent as a DFS tree algorithm.
-- I have just some time here and there for the task with more time could have been done iven better.
+- I did not use any library, so you can check my code from scratch, I think that the usage of other libraries would
+  remove the purpose of the task for the position.
+- The task is well done and can see my programmer skills specific on the `Front-end`.
+- The data model is a bit challenging, could be easier with some kind of relation by parent and child ID or tree level,
+  since the `PATH` is sent as a DFS tree algorithm.
+- I hade just some time here and there for the task, with more time could have been done some improvements.
 
 Accessibility:
 
-- Task is fully accessible.
+- The app is fully accessible.
 - It is possible to move from any important element using `TAB`.
 - Support scream readers.
 - Markup is fully semantic.
-- SEO could be improved thou.
+- `SEO` could be improved thou if we had multiple pages.
 
 Styles:
 
 - I Chose a futuristic design hope that is of you're liking.
-- I opted to use `CSS` in `JS` since in my point of view it is cleaner and easy to scale and maintain.
+- I opted to use `CSS` in `JS` since, in my opinion, it is cleaner and easy to scale and maintain.
 - Styles are fully responsive.
 - Properties are fully dynamic.
 - Variables are set on global variables.
-- I implemented a Theme to be easy to scale the team working on the project, since you can just change variable on the
-  theme to change the all application style.
+- I implemented a Theme to be easy to scale the team working on the project since you can just change the variable on
+  the theme to change all application styles.
 - Code does not use Absolut positioning, although it would be easier it is harder to scale and maintain.
 
 File Structure:
 
-- The file structure was build with this task necessities in mind and is fully scalable and easy to navigate and
+- The file structure was built with these task necessities in mind and is fully scalable and easy to navigate and
   maintain.
 - Every aspect of the respective folder lives inside, so it will be easy to onboard new team members.
 
 Code:
 
-- `TS` and all the needed `Types` and `Iterfaces` to correctly handle type check, of course that some types will be
+- All `TS` `Types` and `Interfaces` needed to correctly handle type check, of course, that some types will be
   automatically generated but `TS` assertion.
 - Some `Type Guards` have to be added in the future.
-- I decided to transform the data when the page loads on a tree by the path since it looks like a DFS tree algorithm.
-- Created a node component and a tree component and responsively call tree with the new node until there is no children.
+- I decided to transform the data when the page loads on a `binary tree` by the path since it looks like a `DFS` tree
+  algorithm.
+- Created a node component and a tree component and `recursively` call the tree with the new node until there is no
+  children.
 - components are decoupled from different concerns and follow every `React` component creation pattern and best
   practices.
 - There is an example of an implementation of a `web worker` to outsource to a new thread heavy computation tasks
-  without blocking the event loop.
-- Code should be easy scalable and maintainable for future iterations of development.
-- `React hooks` are transformed in to `costume hooks` to be easier to test.
-- Should have more integration tests but what is done it should be more than enough to check how I test my code.
+  without blocking the `event loop` or spend resources of browser main thread.
+- Code should be easily scalable and maintainable for future iterations of development.
+- `React hooks` are transformed into `costume hooks` to be easier to test.
+- Should have more `integration tests` but what is done should be more than enough to check how I test my code.
 
 Documentation:
 
-- Did not have much time this week for personal reasons to a had to make a choice between extensive documentation on
-  each folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README` file.
-- Please don't take it like I did not mind is just that did not sime a priority in my point of view, does not mean that
-  documentation is not important by the contrary.
+- Did not have much time this week for personal reasons, so I had to choose between extensive documentation on each
+  folder like using [storybook](https://storybook.js.org/) or a quick explanation on `README.md`.
+- Please don't take it like I did not mind about documentation, just did not seem a priority, in my opinion, does not
+  mean that documentation is not important to the contrary.
 
 ### Task 2 Solution
 
@@ -258,8 +259,8 @@ Response:
 - We can use [redis](https://redis.io/) to manage that resources and when the user dave a new template or change the old
   one we can get a `Ref` from the dom tree of that component and update it like a snapshot, the data structure that I
   would use is a `binary tree`.
-- My task implementation should be able to render any tree.
-- About the challenges that I would face, well one problem will be to decide how we want to store that data, should be
-  in `Json`, on a `binary tree` class? After that we need to parse it back to a React component or than should we inject
-  it directly in the `DOM`?
-- Other point will be how do we synchronise all that to know what is the font `TRUE`.
+- My code implementation from task 1 should be able to render any tree.
+- About the challenges that we would face, well one problem will be to decide how we want to store that data, should be
+  in `Json` format?... After that, we need to parse it back to a React component since injecting it directly in
+  the `DOM` raises some security concerns.
+- Another point will be how do we synchronize app data with progressive cache data which is the `font of TRUE`.
