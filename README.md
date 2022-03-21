@@ -171,10 +171,18 @@ These journey templates should simply be hardcoded in the frontend. For this tas
 1. run `npm test` to get test snapshots and check passing tests.
 2. run `npm run coverage` to get coverage and test results.
 
-| File          | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
-|---------------|---------|----------|---------|---------|-------------------|
-| All files     | 0       | 100      | 0       | 0       |                   |
-| journeyApi.ts | 0       | 100      | 0       | 0       | 8-17              |
+| File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s |
+|------------------------|---------|----------|---------|---------|-------------------|
+| All files              | 88.88   | 33.33    | 81.81   | 88.88   |                   |
+| assets                 | 50      | 100      | 0       | 50      |                   |
+| globalStyles.ts        | 33.33   | 100      | 0       | 33.33   | 14-15             |
+| theme.ts               | 100     | 100      | 100     | 100     |                   |
+| components/JourneyTree | 100     | 0        | 100     | 100     |                   |
+| index.tsx              | 100     | 0        | 100     | 100     | 5                 |
+| components/StepNode    | 100     | 50       | 100     | 100     |                   |
+| index.tsx              | 100     | 50       | 100     | 100     | 61                |
+| hooks                  | 100     | 100      | 100     | 100     |                   |
+| useFetchJourney.tsx    | 100     | 100      | 100     | 100     |                   |
 
 ## Architecture Decisions
 
@@ -223,8 +231,8 @@ Code:
 - Created a node component and a tree component and responsively call tree with the new node until there is no children.
 - components are decoupled from different concerns and follow every `React` component creation pattern and best
   practices.
-- There is an example of an implementation of a `web worker` to outsource to a new thread heavy computation tasks without
-  blocking the event loop.
+- There is an example of an implementation of a `web worker` to outsource to a new thread heavy computation tasks
+  without blocking the event loop.
 - Code should be easy scalable and maintainable for future iterations of development.
 - `React hooks` are transformed in to `costume hooks` to be easier to test.
 - Should have more integration tests but what is done it should be more than enough to check how I test my code.

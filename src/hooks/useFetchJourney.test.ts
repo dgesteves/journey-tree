@@ -1,7 +1,7 @@
 import { renderHook } from "@testing-library/react-hooks";
 import useFetchJourney from "./useFetchJourney";
 
-const expectedTree = [
+export const expectedTree = [
   {
     id: "29fbd98b-4dc2-4635-803b-ec3a0b79eb86",
     stepId: "b44febf9-0b3d-4e08-9f90-f74375fb4d48",
