@@ -1,5 +1,3 @@
-# Task for Christian Graf
-
 * Task Started at Sat 18 Mar 2022
 * Author: Diogo Esteves
 
