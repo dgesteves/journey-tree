@@ -17,17 +17,7 @@
 
 https://user-images.githubusercontent.com/34245953/159127389-58dbb5b2-eea7-4bc0-b82b-0737da889509.mov
 
-## Frontend Challenge
-
-Evaluated on several criteria such as:
-
-- project setup
-- choice of tools (where applicable)
-- documentation
-- coding style
-- tests
-- sticking to requirements
-- UI/UX choices
+## Frontend Task
 
 ### Background
 
